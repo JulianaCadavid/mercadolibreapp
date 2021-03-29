@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="card__title">
+      <span *ngIf="product.condition === 'new'" class="bg animated fadeInDown">NEW</span>
+      <h3>{{product.title}}</h3>
+    </div>
+    <div class="card__body">
+      <div class="half">
+        <div class="image">
+          <a [routerLink]="['/products', product.id]"> <img [src]="product.pictures[0].url" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="card__footer">
+      <div class="recommend">
+        <p>{{product.seller_address.state.name}}</p>
+        <h3>{{product.price |currency}}</h3>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,33 @@
+#text_search{
+    background:  #DAF7A6;
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 10px 10px;
+    border-radius: 0 10px 10px 0;
+    -moz-border-radius:0 10px 10px 0;
+    -webkit-border-radius:0 10px 10px 0;
+    -o-border-radius:0 10px 10px 0;
+    border:0 none;
+    font-weight:bold;
+      margin-left:-4px;
+}
+    
+#button_search{
+    background:  #ffc733;
+    padding: 10px; 
+    border-radius: 40px;
+    border-color: black; 
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 150px;
+    height: 50px;
+}
+    
+.header-row{
+        width:100%
+}
+    
+.header-toolbar{
+        background-color:  #ba4a00 ;
+        margin-bottom: 5px;
+    
+}

@@ -1,0 +1,23 @@
+<mat-toolbar class="header-toolbar" style="height: 90px;">
+    <mat-toolbar-row>
+        <div class="container">
+            <div class="row between-xs middle-xs header-row">
+                <nav>                   
+                </nav>     
+            </div>
+        </div>
+    </mat-toolbar-row>
+    <mat-toolbar-row style="min-height: 40px; margin-top: 20px; margin-bottom: 20px;">
+        <div class="container">
+            <div class="row between-xs middle-xs header-row">
+                <nav>
+                </nav>
+                    <div  style="display:inline;" >
+                        <input id="text_search" size="40" type="text" placeholder="  Buscar " [formControl]="search"/>
+                        <input id="button_search" value="Buscar" type="button" [routerLink]="['/products/search', search.value]"/>
+                    </div> 
+                 <nav></nav>
+            </div>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
